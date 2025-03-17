@@ -1,0 +1,76 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 2s;
+    animation-iteration-count: 3;
+}
+.div1:hover{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    transform: rotate(90deg);
+    border-radius: 100px;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-duration: 0.5s;
+    animation-name: Change;
+    animation-timing-function: linear;
+    animation-iteration-count: 4;
+}
+@keyframes Change{
+    from{
+        bottom: 0px;
+    }
+    to{
+        bottom: 150px;
+    }
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: rgb(0, 153, 255);
+    animation-duration: 0.5s;
+    animation-name: colorChanger;
+   animation-iteration-count: 4;
+}
+    
+    
+
+@keyframes colorChanger{
+    0%{
+        background-color: green;
+        
+    }
+    25%{
+        background-color: yellow;
+        
+    }
+    50%{
+        background-color: red;
+        
+    }
+    75%{
+        background-color: orangered;
+        
+    }
+    100%{
+        background-color: white;
+        
+    }
+}
+    
+
+

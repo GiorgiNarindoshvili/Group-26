@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(187, 24%, 22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+    width: 880px;
+    height: 620px;
+    border-radius: 10px;
+}
+
+.head{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 23px;
+    
+}
+h1{
+    color: hsl(187, 24%, 22%);
+}
+.text{
+    width: 350px;
+    margin-left: 60px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.p1{
+    color: hsl(187, 24%, 22%);
+}
+
+.forms{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.forms2{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+.forms3{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+label{
+    font-size: 16px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+input[type="email"]{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid hsl(187, 24%, 22%);
+    gap: 10px;
+    margin-top: 10px;
+    width: 320px;
+    height: 30px;
+}
+
+
+.img{
+    position: absolute;
+    left: 680px;
+    top: 20px;
+    width: 10px;
+    height: 50px;
+}
+.but1{
+    background-color: hsl(187, 24%, 22%);
+    border: none;
+    width: 330px;
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease, 0.2s ease;
+    
+}
+
+
+.but1:hover{
+    background-image: linear-gradient(45deg,  rgb(255, 70, 101), hsl(0, 75%, 50%));
+    transform: scale(1.03);
+}

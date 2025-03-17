@@ -1,0 +1,147 @@
+body{
+    background-color: hsl(0, 0%, 8%); 
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.parent{
+    width: 300px;
+    height: 490px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    position: absolute;
+    top: 100px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+h1{
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 170px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+h2{
+    color: hsl(75, 94%, 57%);
+    position: absolute;
+    top: 200px;
+    font-family: "Inter",sans-serif;
+    font-size: 11px;
+}
+.p1{
+    color: hsl(0, 0%, 81%);
+    position: absolute;
+    top: 230px;
+    font-family: "Inter",sans-serif;
+    font-size: 12px;
+}
+.github{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.Frontendmentor{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 312px;
+    font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.Linkedin{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 355px;
+    font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.Twitterr{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 397px;
+    font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.instagram{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 465px;
+    font-family: "Inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.github:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+.Frontendmentor:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+.Linkedin:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+.Twitterr:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+.instagram:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}

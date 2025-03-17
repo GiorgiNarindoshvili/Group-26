@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Image/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(275, 100%, 97%);
+}
+main{
+    background-color:  hsl(0, 0%, 100%);
+    width: 490px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 7px 17px 2px rgb(238, 238, 238);
+}
+h1{
+    position: absolute;
+    top: 105px;
+    left: 520px;
+    color: hsl(292, 42%, 14%);
+    font-size: 38px;
+    font-weight: 700;
+}
+.star{
+    position: absolute;
+    top: 105px;
+    left: 470px;
+    width: 40px;
+}
+.title{
+    position: absolute;
+    top: 205px;
+    font-size: 13px;
+    left: 470px;
+    font-weight: 700;
+    color: hsl(292, 42%, 14%);
+}
+.minus{
+    position: absolute;
+    top: 195px;
+    left: 845px;
+    width: 30px;
+}
+.txt{
+    position: absolute;
+    top: 255px;
+    font-size: 13px;
+    left: 470px;
+    color: hsl(292, 16%, 49%);
+    line-height: 18px;
+}
+.one{
+    position: absolute;
+    top: 380px;
+    left: 470px;
+    font-size: 14px;
+    color:  hsl(292, 42%, 14%);
+    font-weight: 700;
+}
+.plus1{
+    position: absolute;
+    top: 375px;
+    left: 845px;
+    width: 29px;
+}
+
+.two{
+    position: absolute;
+    top: 440px;
+    left: 465px;
+    font-size: 14px;
+    color:  hsl(292, 42%, 14%);
+    font-weight: 700;
+}
+.plus2{
+    position: absolute;
+    top: 435px;
+    left: 845px;
+    width: 29px;
+}
+.three{
+    position: absolute;
+    top: 500px;
+    left: 465px;
+    font-size: 14px;
+    color:  hsl(292, 42%, 14%);
+    font-weight: 700;
+}
+.plus2{
+    position: absolute;
+    top: 435px;
+    left: 845px;
+    width: 29px;
+}
+.plus3{
+    position: absolute;
+    top: 495px;
+    left: 845px;
+    width: 29px;
+}

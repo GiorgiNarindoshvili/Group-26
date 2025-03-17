@@ -1,0 +1,24 @@
+body {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+  }
+
+#parent-container{
+    margin: 0;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 171, 238);
+}
+
+#child-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}

@@ -1,0 +1,22 @@
+table, th, td{
+    border: 1px solid green;
+}
+h1{
+    text-align: center;
+    font-size: medium;
+}
+th{
+    width: 250px;
+    text-align: center;
+}
+th{
+    background-color: green;
+    color:white;
+}
+tr:nth-child(odd){
+    background-color: rgb(207, 206, 206);
+}
+table{
+    border-collapse: collapse;
+    
+}

@@ -1,0 +1,38 @@
+body{
+    background-image: url(../Homework/Images/download\ \(1\).jpg);
+    background-size: contain;
+    width: 100vh;
+    height: 100px;
+    marg
+    
+}
+table, th, td{
+    border: 2px solid rgb(255, 255, 255);
+}
+h1{
+    background-color: pink;
+    text-align: center;
+    font-size: medium;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+th{
+    width: 250px;
+    text-align: center;
+}
+th{
+    background-color: pink;
+    color: black;
+}
+tr:nth-child(odd){
+    background-color: rgb(226, 153, 165);
+}
+tr{
+    background-color: palevioletred;
+}
+table{
+    border-collapse: collapse;
+}

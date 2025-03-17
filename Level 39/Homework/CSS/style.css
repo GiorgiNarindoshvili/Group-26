@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: 0.5s;
+}
+.div1:hover{
+    transform: rotate(120deg);
+    transform-origin: right top;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.5s;
+}
+.div2:hover{
+    width: 200px;
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 187, 0);
+    transition: 0.5s;
+}
+.div3:hover{
+    height: 200px;
+    background-color: green;
+}

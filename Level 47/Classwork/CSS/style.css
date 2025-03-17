@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "League Spartan";
+}
+body{
+    height: 100vh;
+    background-image: url(../Images/bg-pattern-top-desktop.svg) , url(../Images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+    width: 75%;
+    height: 75vh;
+    align-self: center;
+  
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.upperleft{
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.hh1{
+    font-size: 53px;
+    color: hsl(300, 43%, 22%);
+}
+.p1{
+    color: hsl(303, 10%, 53%);
+    font-size: 19px;
+    line-height: 25px;
+}
+.upper-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.divi{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    gap: 20px;
+    background-color: hsl(300, 24%, 96%);
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+}
+.divp{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 18px;
+}
+.div2{
+    margin-left: 50px;
+}
+.div3{
+    margin-left: 100px;
+}
+.lower{
+    background-color: hsl(300, 43%, 22%);
+    position: absolute;
+    top: 380px;
+    left: 170px;
+    width: 330px;
+    height: 200px;
+    border-radius: 5px;
+}
+.box1ttl{
+    position: absolute;
+    font-size: 18px;
+    left: 80px;
+    top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.colton{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    top: 30px;
+    left: 30px;
+}
+.boxp1{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.boxp1-2{
+    color: hsl(300, 24%, 96%);
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    width: 300px;
+    line-height: 20px;
+}
+.lowercenter{
+    background-color: hsl(300, 43%, 22%);
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    width: 330px;
+    height: 200px;
+    border-radius: 5px;
+}
+.box2ttl{
+    position: absolute;
+    font-size: 18px;
+    left: 80px;
+    top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.irene{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    top: 30px;
+    left: 30px;
+}
+.boxp2{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.boxp2-2{
+    color: hsl(300, 24%, 96%);
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    width: 300px;
+    line-height: 20px;
+}
+.lowerright{
+    background-color: hsl(300, 43%, 22%);
+    position: absolute;
+    top: 20px;
+    left: 720px;
+    width: 330px;
+    height: 200px;
+    border-radius: 5px;
+}
+.box3ttl{
+    position: absolute;
+    font-size: 18px;
+    left: 80px;
+    top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.anne{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    top: 30px;
+    left: 30px;
+}
+.boxp3{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.boxp3-2{
+    color: hsl(300, 24%, 96%);
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    width: 300px;
+    line-height: 20px;
+}

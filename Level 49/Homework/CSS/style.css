@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans";
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(241, 241, 241);
+}
+.Social{
+    position: absolute;
+    top: 40px;
+    background-color: hsl(256, 67%, 59%);
+    width: 390px;
+    height: 280px;
+    border-radius: 10px;
+}
+.scl{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    font-size: 50px;
+    font-weight: 350;
+    line-height: 45px;
+    color: hsl(0, 0%, 100%);
+}    
+span{
+    color: hsl(39, 100%, 71%);
+}
+
+.AI{
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    font-size: 53px;
+    font-weight: 350;
+    line-height: 45px;
+    color: hsl(0, 0%, 100%);
+}
+.stars{
+    position: absolute;
+    width: 150px;
+    top: 165px;
+    left: 120px;
+}
+.over{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: hsl(254, 88%, 90%);
+}
+.manage{
+    position: absolute;
+    background-color: white;
+    width: 170px;
+    left: 490px;
+    height: 165px;
+    top: 335px;
+    border-radius: 5px;
+}
+.insta{
+    width: 150px;
+    left: 20px;
+    position: absolute;
+    top: 10px;
+    
+}
+.mang{
+    font-size: 19px;
+    position: absolute;
+    top: 70px;
+    width: 130px;
+    left: 20px;
+    font-weight: 530;
+    line-height: 18px;
+}
+.maintain{
+    position: absolute;
+    background-color: hsl(39, 100%, 71%);
+    width: 170px;
+    left: 680px;
+    height: 165px;
+    top: 335px;
+    border-radius: 5px;
+}
+.mnt{
+    position: absolute;
+    font-size: 19px;
+    width: 130px;
+    top: 10px;
+    left: 10px;
+    font-weight: 530;
+    line-height: 16px;
+}
+.mntimg{
+    width: 110px;
+    position: absolute;
+    top: 82px;
+    left: 25px;
+}
+.schedule{
+    position: absolute;
+    width: 200px;
+    height: 460px;
+    background-color: hsl(254, 88%, 90%);
+    top: 40px;
+    left: 890px;
+    border-radius: 5px;
+}
+.schd{
+    font-size: 23px;
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    font-weight: 530;
+    line-height: 20px;
+}
+.schdimg{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    border-radius: 10px;
+    left: 50px;
+}
+.sche{
+    position: absolute;
+    top: 320px;
+    left: 20px;
+}
+.fiftysix{
+    position: absolute;
+    background-color: white;
+    width: 170px;
+    left: 490px;
+    height: 165px;
+    top: 515px;
+    border-radius: 5px;
+}
+.fftsx{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-weight: 530;
+    font-size: 43px;
+}
+.faster{
+    position: absolute;
+    font-size: 13px;
+    top: 80px;
+    left: 15px;
+}
+.fiftysiximg{
+    position: absolute;
+    top: 110px;
+    left: 15px;
+    width: 140px;
+
+}
+.grew{
+    background-color: hsl(256, 67%, 59%);
+    position: absolute;
+    width: 410px;
+    height: 170px;
+    top: 515px;
+    border-radius: 5px;
+    left: 680px;
+}
+.grew1{
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.grew2{
+    font-size: 24px;
+    width: 200px;
+    top: 40px;
+    position: absolute;
+    left: 200px;
+    font-weight: 350;
+    color: white;
+}
+.quicker{
+    background-color: hsl(31, 66%, 93%);
+    width: 200px;
+    position: absolute;
+    left: 255px;
+    height: 295px;
+    top: 40px;
+    border-radius: 5px;
+}
+.quickerh{
+    position: absolute;
+    top: 55px;
+    left: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+i{
+    color: hsl(256, 67%, 59%);
+}
+.quickerjpg{
+    width: 170px;
+    position: absolute;
+    top: 170px;
+    left: 15px;
+}
+.writee{
+    position: absolute;
+    background-color: hsl(39, 100%, 71%);
+    width: 200px;
+    height: 315px;
+    top: 370px;
+    left: 255px;
+    border-radius: 5px;
+}
+.writeeh{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.writeejpg{
+    width: 180px;
+    position: absolute;
+    top: 120px;
+    left: 17px;
+}

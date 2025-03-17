@@ -1,0 +1,25 @@
+table, th, td{
+    border: 1px solid grey;
+}
+
+h1{
+    text-align: center;
+    font-size: medium;
+}
+
+th{
+    background-color: rgb(10, 10, 10);
+    color: rgb(235, 235, 235);
+}
+th{
+    text-align: center;
+    width: 250px;
+    
+}
+tr:nth-child(even){
+    background-color: rgb(207, 206, 206);
+}
+table{
+    border-collapse: collapse;
+    
+}

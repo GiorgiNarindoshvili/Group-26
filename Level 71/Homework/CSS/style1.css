@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+#parent{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+
+}
+
+#child{
+    background-color: blue;
+    height: 70px;
+    width: 70px;
+    position: relative;
+}

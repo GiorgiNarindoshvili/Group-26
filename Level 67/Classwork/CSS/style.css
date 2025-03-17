@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+}
+
+body{
+    background-color: hsl(148, 38%, 91%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+    width: 490px;
+    height: 460px;
+    border-radius: 10px;
+}
+.head{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.title1{
+    display: flex;
+}
+h1{
+    font-size: 24px;
+    color: hsl(187, 24%, 22%);
+}
+label{
+    font-size: 16px;
+    
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    
+}
+.form2{
+    position: absolute;
+    top: 178px;
+    left: 690px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid hsl(187, 24%, 22%);
+    gap: 10px;
+    margin-top: 10px;
+    width: 185px;
+}
+.form3{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+input[type="email"]{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid hsl(187, 24%, 22%);
+    gap: 10px;
+    margin-top: 10px;
+    width: 410px;
+}
+
+
+.form4{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.pp{
+    display: flex;
+}
+
+
+
+
+

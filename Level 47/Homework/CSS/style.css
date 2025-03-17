@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Hanken Grotesk";
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.leftside{
+    position: absolute;
+    left: 400px;
+    width: 280px;
+    height: 500px;
+    background-color: hsl(241, 65%, 52%);
+    border-radius: 30px;
+    
+}
+.p1{
+    color: hsl(241, 100%, 89%);
+    position: absolute;
+    left: 95px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.circle{
+    position: absolute;
+    top: 170px;
+    left: 440px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: hsla(256, 72%, 46%, 1);
+    box-shadow: 0px 0px 3px;
+}
+.seventysix{
+    position: absolute;
+    left: 68px;
+    top: 50px;
+    font-weight: 700;
+    font-size: 56px;
+    color: white;
+}
+.out{
+    position: absolute;
+    top: 140px;
+    left: 75px;
+    color: hsl(241, 100%, 89%);
+}
+.great{
+    position: absolute;
+    top: 400px;
+    font-size: 30px;
+    font-weight: 600;
+    left: 495px;
+    color: hsl(221, 100%, 96%);
+}
+.circlep{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 415px;
+    top: 450px;
+    width: 250px;
+    color: hsl(241, 100%, 89%);
+}
+.listt{
+    position: absolute;
+    box-shadow: 3px 3px 3px hsl(241, 100%, 89%);
+    width: 280px;
+    height: 500px;
+    left: 680px;
+    border-radius: 30px;
+}
+.summary{
+    position: absolute;
+    margin-top: 15px;
+    left: 10px;
+    font-size: 23px;
+    color: hsl(224, 30%, 27%);
+}
+.reaction{
+    position: absolute;
+    background-color: hsl(0, 100%, 94%);
+    width: 220px;
+    height: 50px;
+    top: 100px;
+    left: 20px;
+    border-radius: 8px;
+}
+.reactionsvg{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.reactionp{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+}
+.numbersr{
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    color: hsl(242, 22%, 72%);
+}
+span{
+    color: black;
+    font-weight: bolder;
+}
+.Memory{
+    position: absolute;
+    background-color: hsl(40, 91%, 92%);
+    width: 220px;
+    height: 50px;
+    top: 240px;
+    left: 700px;
+    border-radius: 8px;
+}
+.memorysvg{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.Memoryp{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;
+}
+.numbersm{
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    color: hsl(242, 22%, 72%);
+}
+span{
+    color: black;
+    font-weight: bolder;
+}
+.Verbal{
+    position: absolute;
+    background-color: hsl(167, 100%, 94%);
+    width: 220px;
+    height: 50px;
+    top: 310px;
+    left: 700px;
+    border-radius: 8px;
+}
+.verbal{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.Verbalp{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+}
+.numbersV{
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    color: hsl(242, 22%, 72%);
+}
+span{
+    color: black;
+    font-weight: bolder;
+}
+.Visual{
+    position: absolute;
+    background-color: hsl(235, 100%, 93%);
+    width: 220px;
+    height: 50px;
+    top: 380px;
+    left: 700px;
+    border-radius: 8px;
+}
+.visual{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.Visuall1{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
+}
+.numbersV1{
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    color: hsl(242, 22%, 72%);
+}
+span{
+    color: black;
+    font-weight: bolder;
+}
+button{
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    top: 100px;
+    left: 1px;
+    width: 220px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+
+}

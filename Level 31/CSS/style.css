@@ -1,0 +1,39 @@
+ul{
+    list-style: circle;
+}
+#ul2{
+    list-style: armenian;
+}
+#ul3{
+    list-style: georgian;
+}
+#ul4{
+    list-style: lower-alpha;
+}
+#ul5{
+    list-style: lower-roman;
+}
+ol{
+   list-style: decimal-leading-zero;
+}
+#ol2{
+    list-style: decimal;
+}
+input[type="email"]{
+    border: none;
+}
+button{
+    border-radius: 50px;
+    background-color: rgb(7, 73, 255);
+    border: none;
+    font-size: 15px;
+    width: 90px;
+    height: 25px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: rgb(5, 48, 165);
+    box-shadow: 0 0 20px rgb(5, 48, 165);
+    color: white;
+    text-shadow: 0 0 5px white;
+}
