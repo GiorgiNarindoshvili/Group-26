@@ -1,0 +1,1 @@
+//Javascript modules allow you to break your code up into separate files, modules are imported from external files with the import statement, modules also represent on type = "module" in the script tag, it makes easier to maintain and manage a codebase directly in separate files.
