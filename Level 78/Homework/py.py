@@ -74,3 +74,30 @@
 #12) https://www.codewars.com/kata/574b1916a3ebd6e4fa0012e7/train/python
 # def is_opposite(s1, s2):
 #     return s1.swapcase() == s2 and s1 != ""
+
+#13) https://www.codewars.com/kata/59126992f9f87fd31600009b/train/python
+# def whose_move(l, win):
+    # if l == "black" and win == False:
+    #     return "white"
+    # if l == "white" and win == True:
+    #     return "white"
+    # if l == "black" and win == True:
+    #     return "black"
+    # if l == "white" and win == False:
+    #     return "black"
+
+#14) https://www.codewars.com/kata/5890d8bc9f0f422cf200006b/train/python
+# def excluding_vat_price(price):
+#     if price == None:
+#         return -1
+    
+#     original  = price / (1 + 15 / 100)
+#     return round(original, 2)
+
+#15) https://www.codewars.com/kata/588417e576933b0ec9000045/train/python
+# def seats_in_theater(tot_cols, tot_rows, col, row):
+#     return (tot_cols - col + 1) * (tot_rows - row)
+
+
+
+
