@@ -107,3 +107,5 @@
 #     elif clothes < load:
 #         return 'Not enough clothes'
 #     return round(water * 1.1 ** (clothes - load),2) 
+
+#14) 

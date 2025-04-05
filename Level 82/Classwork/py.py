@@ -89,3 +89,51 @@
 #         discountCents = 0.25
 #     total = litres * ppl - discountCents * litres
 #     return round(total, 2)
+
+#12)https://www.codewars.com/kata/5732d3c9791aafb0e4001236/train/python
+# import math
+
+# def round_it(n):
+#     str_num = str(n)
+    
+#     if '.' in str_num:
+#         left, right = str_num.split('.')
+        
+#         if len(left) > len(right):
+#             return math.ceil(n) - 1
+#         if len(left) < len(right):
+#             return math.ceil(n)
+#     return round(n)
+
+#13) https://www.codewars.com/kata/57238766214e4b04b8000011/train/python
+# def change_me(money): 
+#     if "£5" in money:
+#         return '20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p 20p'
+#     elif "£2" in money:
+#         return '20p 20p 20p 20p 20p 20p 20p 20p 20p 20p'
+#     elif "£1" in money:
+#         return '20p 20p 20p 20p 20p'
+#     elif "50p" in money:
+#         return '20p 20p 10p'
+#     elif "20p" in money:
+#         return '10p 10p'
+#     return money
+
+#14) https://www.codewars.com/kata/5713bc89c82eff33c60009f7/train/python
+# def to_freud(sentence):
+#     words = sentence.split()
+#     rp = "sex"
+#     replaced = " ".join([rp] * len(words))
+#     return replaced
+
+#15) https://www.codewars.com/kata/55d8618adfda93c89600012e/train/python
+# def what_is(x):
+#     if x == 42:
+#         return 'everything'
+#     elif x == 42 * 42:
+#         return 'everything squared'
+#     return 'nothing'
+
+#16) https://www.codewars.com/kata/644b17b56ed5527b09057987/train/python
+# STRANGE_STRING="ß"
+
