@@ -1,0 +1,13 @@
+{
+  "name": "homework2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Giorgi Narindoshvili",
+  "type": "module",
+  "main": "hindex2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
+
