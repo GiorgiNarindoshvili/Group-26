@@ -8,7 +8,7 @@ promise1
 
 
 //2
-const promisses = new Promise((reject)=> {
+const promisses = new Promise((resolve, reject)=> {
     reject("Something went wrong!")
 })
 
