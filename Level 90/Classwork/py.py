@@ -7,5 +7,3 @@
     #             if nums[i] + nums[j] == target:
     #                 return [i, j]
 
-list1 = [1,2,3,4,5,6,7,8,9]
-print(list1)
