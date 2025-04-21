@@ -1,13 +1,16 @@
-fetch("https://api.adviceslip.com/advice")
-    .then(response => response.json())
-    .then(adciv => {
-    const advicee= document.getElementById('advi');
-    const advice = adciv.slip;
-    advicee.innerHTML = `
-        <p>ADVICE #${advice.id}</p>
-        <h1>${advice.advice}</h4>
-        <img src='./images/pattern-divider-desktop.svg' id="img1">
-        <button class="diceroll" onclick="location.reload()"><img src='./images/icon-dice.svg'></button>
-    `
+const advnumber = document.getElementById("advicetitl")
+const advice = document.getElementById("advice1")
+const butto = document.getElementById("button1")
+
+butto.addEventListener('click', function(){
+    fetch("https://api.adviceslip.com/advice").then(res => {
+        return res.json()
+    }).then(advice1 =>{
+        const data = advice1.slip;
+        advnumber.innerHTML = `<p>ADVICE # ${data.id}</p>`;
+        advice.innerHTML = `<p>"${data.advice}"</p>`
+    }).catch(err =>{
+        console.log("Error is", err)
     })
+})
    
