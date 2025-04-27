@@ -7,31 +7,43 @@
     <link rel="stylesheet" href="/Classwork/CSS/style.css">
 </head>
 <body>
-    <main>
-       <div class="head">
-          <div class="title1">
-             <h1>Contact Us</h1>
-          </div>
+    <div class="main">
+        <div class="head">
+          <h1>Contact Us</h1>
         </div>
-        <div class="formm">
-            <form class="form1">
-                <label for="tp1">First Name *</label>
-                <input type="text" name="name" id="tp1">
-            </form>
-            <form class="form2">
-                <label for="tp2">Last Name *</label>
-                <input type="text" name="name" id="tp2">
-            </form>
-            <form class="form3">
-                <label for="tp3">Email*</label>
-                <input type="email" name="name" id="tp3">
-            </form>
-            <form class="form4">
-                    <label>Query Type *</label>
-                    <input type="radio" id="g1">
-                    <label for="g1" id="pp">General Requiry </label>
-            </form>
+        <div class="form">
+           <form id="mainform">
+                <label for="name">First Name *</label>
+                <input type="text" id="name" name="name">
+                <label for="lastname" id="lastname1">Last Name *</label>
+                <input type="text" id="lastname" name="lastname">
+                <label for="email">Email Adress *</label>
+                <input type="email" id="email" name="email">
+                <label for="query">Query Type *</label>
+                <div class="radios">
+                    <input type="radio" id="quer1">
+                    <label for="quer1">General Enquiry</label>
+                </div>
+                <div class="radios2">
+                    <input type="radio" id="radip2">
+                    <label for="radip2">Support Request</label>
+                </div>
+                <label for="message">Message *</label>
+                <input type="text2" id="message" name="message">
+                <div class="check">
+                    <input type="checkbox" id="check1">
+                    <label for="check1">I consent to being contacted by the team *</label>
+                    
+                </div>
+                <button id="butt">Submit</button>
+                
+                
+        </form> 
         </div>
-    </main>
+        
+    </div>
+       
+        
+    <script src="/Classwork/script.js"></script>
 </body>
 </html>
