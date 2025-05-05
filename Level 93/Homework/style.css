@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Space Mono", sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+main{
+    width: 900px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#header{
+    display: flex;
+    padding: 120px;
+    justify-content: space-between;
+}
+.dev{
+    font-size: 20px;
+}
+#dark{
+    display: flex;
+    gap: 10px;
+    margin-top: 13px;
+    letter-spacing: 2px;
+}
+.moon{
+    width: 12px;
+    height: 12px;
+}
+.da2rk{
+    font-size: 11px;
+}
+
+#searchbar{
+    display: flex;
+    padding-left: 110px;
+    margin-top: -70px;
+}
+.search input[type="text"]{
+    background-color: rgb(238, 238, 238);
+    height: 60px;
+    width: 620px;
+    border-radius: 10px;
+    border: none;
+    margin-left: -20px;
+    padding-left: 80px;
+    outline: none;
+    
+}
+
+.search img{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+}
+#logoandtext{
+    display: flex;
+    gap: 20px;
+    padding: 17px;
+}
+#button{
+    margin-top: -65px;
+    margin-left: 600px;
+    
+    
+}
+.butttons{
+    border: none;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+#box{
+    display: flex;
+    padding: 25px;
+    margin-left: 83px;
+}
+
+.box1{
+    background-color: rgb(238, 238, 238);
+    height: 400px;
+    width: 703px;
+    border-radius: 10px;
+    
+}

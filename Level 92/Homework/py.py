@@ -1,13 +1,17 @@
 #1 https://leetcode.com/problems/car-fleet/
-# class Solution(object):
-#      def carFleet(self, target, position, speed) :
-#         value = [[p, s] for p, s in zip(position, speed)]
-#         stack = []
-#         for p, s in sorted(value)[::-1]:
-#             stack.append((target - p) / s)
-#             if len(stack) >= 2 and stack[-1] <= stack[-2]:
-#                 stack.pop()
-#         return len(stack) 
+# class Solution:
+#     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
+#         list1 = []
+#         for i, x in zip(position, speed):
+#             list1.append([i, x])
+
+#         list2 = []
+#         for g, n in sorted(list1)[::-1]:
+#             list2.append((target - g) / n)
+#             if len(list2) >= 2 and list2[-1] <= list2[-2]:
+#                 list2.pop()
+#         return len(list2)
+        
         
 
 #2 https://leetcode.com/problems/longest-consecutive-sequence/

@@ -83,7 +83,7 @@ promise3
 
 //first example
 const pro1 = async() => {
-    let name1 = await "Giorgi Narindoshvili"
+    let name1 = await "Giorgi Narindoshvili";
     console.log(name1)
 }
 pro1()
@@ -97,5 +97,7 @@ pro2()
 
 //third
 const pro3 = async() => {
-    let name
+    let name23 = await "Second Name is Giga";
+    console.log(name23)
 }
+pro3()
