@@ -49,7 +49,7 @@ main{
     margin-top: -70px;
 }
 .search input[type="text"]{
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(243, 243, 243);
     height: 60px;
     width: 620px;
     border-radius: 10px;
@@ -67,36 +67,189 @@ main{
     width: 30px;
     height: 30px;
 }
-#logoandtext{
+form{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     padding: 17px;
 }
-#button{
-    margin-top: -65px;
-    margin-left: 600px;
-    
-    
-}
+
 .butttons{
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 10px;
     border: none;
     background-color: rgb(0, 140, 255);
     color: white;
     height: 40px;
     width: 80px;
     border-radius: 10px;
+    transition: 0.2s;
+}
+.butttons:hover{
+    width: 90px;
+    height: 45px;
+    background-color: white;
+    color: rgb(0, 140, 255);
 }
 
 #box{
     display: flex;
     padding: 25px;
     margin-left: 83px;
+
 }
 
-.box1{
-    background-color: rgb(238, 238, 238);
-    height: 400px;
+#box1{
+    
+    background-color: rgb(250, 250, 250);
+    height: 500px;
     width: 703px;
     border-radius: 10px;
     
 }
+
+#box1 img{
+    display: flex;
+    padding: 30px;
+    border-radius: 100px;
+    width: 120px;
+}
+
+#box1 h3{
+    display: flex;
+    position: absolute;
+    padding-left: 180px;
+    margin-top: -130px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.follos{
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    justify-content: space-around;
+    
+    align-items: center;
+    height: 90px;
+    width: 500px;
+    border-radius: 15px;
+    margin-left: 170px;
+
+
+}
+.repos{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+    
+}
+
+.followers{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    
+    
+}
+.following{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+        
+        
+}
+
+
+.joined{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 480px;
+}
+
+.bio{
+    position: absolute;
+    padding-left: 180px;
+    margin-top: -55px;
+}
+
+
+.lowerdiv{
+    
+    padding-left: 180px;
+    padding-top: 30px;
+}
+.username{
+    position: absolute;
+    padding-left: 180px;
+    margin-top: -105px;
+    color: blue;
+    font-size: 12px;
+}
+.lowerdiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: -5px;
+}
+
+.location{
+    display: flex;
+    width: 20px;
+    margin-left: -50px;
+    gap: 20px;
+}
+
+.location p{
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    margin-left: 65px;
+    padding-top: 30px;
+}
+
+.url{
+    display: flex;
+    width: 20px;
+    margin-left: -50px;
+    margin-top: -30px;
+}  
+
+.url p{
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    margin-left: 65px;
+    padding-top: 30px;
+}
+
+.twitter{
+    display: flex;
+    width: 20px;
+    margin-left: 240px;
+    margin-top: -130px;
+}
+
+.twitter p{
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    margin-left: 65px;
+    padding-top: 30px;
+}
+
+.company{
+    display: flex;
+    width: 20px;
+    margin-left: 300px;
+    margin-top: -30px;
+}
+
+.company p{
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    margin-left: 65px;
+    padding-top: 30px;
+}
+
