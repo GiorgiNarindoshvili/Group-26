@@ -7,6 +7,65 @@
     <link rel="stylesheet" href="/Homework/CSS/style.css">
 </head>
 <body>
-    
+    <div id="maindiv">
+        <div id="leftside">
+            <div class="upper">
+                <h1 class="title">Mortgage Calculator</h1>
+                <p class="clear">Clear all</p>
+            </div>
+            <form id="first">
+                <label for="amount">Mortgage Amount</label>
+                <div id="inp">
+                    <span id="eurosymbool">€</span>
+                    <input type="text" id="amount" placeholder="Enter Amount"> 
+                </div>
+            </form>
+            <form id="secondform">
+                <label for="monterm">Montage Term</label>
+                <div class="term">
+                    <input type="text" id="monterm">
+                    <span id="years">years</span>
+                </div>
+                <label for="Interest Rate" id="in">Interest Rate</label>
+                <div class="inte">
+                    <input type="text" id="Interest Rate">
+                    <span id="percent">%</span>
+                </div>
+            </form>
+            <form id="radios">
+                <label for="">Mortgage Type</label>
+                <div id="radio1">
+                    <input type="radio">
+                    <p class="repa">Repayment</p>
+                </div>
+                <div id="radios2">
+                    <input type="radio">
+                    <p class="repa">Interest Only</p>
+                </div>
+            </form>
+            <button id="calculator"><img src="/Homework/images/icon-calculator.svg" alt="">Calculate Repayments</button>
+        </div>
+        <div id="rightside">
+            <div class="text12">
+                <img src="/Homework/images/illustration-empty.svg" alt="" id="illu">
+                <h1 class="res">Results Shown Here</h1>
+                <p class="resu">Complete the form and click “calculate repayments” to see what your monthly repayments would be.</p>
+            </div>
+            <div id="secondright">
+                <h1 class="your">Your results</h1>
+                <p class="restext">Your results are shown below based on the information you provided. To adjust the results, edit the form and click “calculate repayments” again.</p>
+                <div class="reslt">
+                    <h1>Your Monthly Repayments</h1>
+                    <p class="mone">€1,797.74</p>
+                    <p class="line"></p>
+                    <p class="tot">Total you'll pay overterm:</p>
+                    <p class="mone2">€539,322.94</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/Homework/script.js"></script>
 </body>
 </html>
