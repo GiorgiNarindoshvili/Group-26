@@ -37,8 +37,8 @@ const books = [
     })
 
 const addBook = (index) => {
-    items.push(newwBooks[index])
-    localStorage.setItem("")
+    newwBooks.push(books[index])
+    localStorage.setItem("My Books", JSON.stringify(newwBooks))
 }
 
 
