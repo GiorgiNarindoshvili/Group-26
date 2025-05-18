@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#bks{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    height: 600px;
+    width: 300px;
+
+}
