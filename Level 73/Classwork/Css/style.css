@@ -1,5 +1,12 @@
 div{
     display: flex;
-    flex-direction: column;
-    width: 200px;
+    gap: 80px;
+    padding: 60px;
+    width: 25px;
+
+}
+
+img{
+    transition: 0.3s;
+    padding: 60px;
 }
