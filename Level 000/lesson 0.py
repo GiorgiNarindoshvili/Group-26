@@ -1,7 +1,7 @@
 from turtle import *
 #we want to paint a house
 #step 1:  draw a square
-width(7)
+width(1)
 color("purple")
 begin_fill()
 forward(200)
