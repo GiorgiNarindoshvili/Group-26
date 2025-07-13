@@ -3,7 +3,7 @@ import React, { useState } from "react";
 //1
 const App = () => {
   const [taskList, setTaskList] = useState([]);
-  const [selectedTask, setSelectedTask] = useState(null);
+  
 
   const handleClick = () => {
     const input = document.getElementById("task");
@@ -14,26 +14,24 @@ const App = () => {
     }
   };
 
-  const handleRemoveClick = () => {
-    if (selectedTask !== null) {
-      setTaskList(taskList.filter((_, i) => i !== selectedTask));
+  const handleRemoveClick = (dele) => {
+    const newTask = taskList.filter((_, index) => index !== dele)
+    setTaskList(newTask)
       
     }
-  };
+  ;
 
   return (
     <main>
       <input type="text" id="task" placeholder="Enter your Task" />
       <button onClick={handleClick}>Add Task</button>
-      <button onClick={handleRemoveClick}>Remove Task</button>
+      
 
       <h1>Tasks:</h1>
       <ul>
-        {taskList.map((tsk, i) => (
-          <li key={i} onClick={() => setSelectedTask(i)}>
-            {tsk}
-          </li>
-        ))}
+        {
+        taskList.map((item, index) => <li key={index}>{item} <button onClick={() => handleRemoveClick(index)}>Delete Task</button></li>)
+        }
       </ul>
     </main>
   );
