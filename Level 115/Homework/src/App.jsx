@@ -8,12 +8,23 @@ const App = () => {
   const handleSubmit = (e) =>{
     e.preventDefault()
     const{name, grade} = e.target
-    setStudentList(prev => [...prev,{name: name.value, grade: grade.value}])
+    setStudentList(prev => [...prev,{id: Date.now(), name: name.value, grade: grade.value}])
+   
   }
   const handleDelete = (dele) =>{
     setStudentList(prev=>prev.filter(current => current.id !== dele))
   }
 
+  const sortUp = () => {
+    const sorted = [...studentList].sort((a, b) => a.grade.localeCompare(b.grade))
+    setStudentList(sorted)
+  }
+
+  const sortDown = () => {
+    const sorted = [...studentList].sort((a, b) => b.grade.localeCompare(a.grade))
+    setStudentList(sorted)
+
+  }
 
 
   return(
@@ -42,6 +53,10 @@ const App = () => {
             )
             
           })}
+        </div>
+        <div>
+          <button onClick={sortUp}>Sort Up</button>
+          <button onClick={sortDown}>Sort Down</button>
         </div>
     </div>
   )
