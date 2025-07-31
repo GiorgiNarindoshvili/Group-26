@@ -62,5 +62,3 @@ print(x)
 for i in range(50):
   print("JOIN IN GOA BECOME A CHAD")
 
-
-
