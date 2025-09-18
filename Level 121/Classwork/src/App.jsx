@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useState } from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+const App = () => {
+  const[count, setCount] = useState(0)
+
+  useEffect(() => {
+    const handleClick = () => {
+        setCount(prev => prev + 1)
+    }
+    document.addEventListener("click", handleClick)
+    return() => {
+        document.removeEventListener("click", handleClick)
+    }
+  }, [count])
+
+  return(
+    <main>
+        <h1>Count: {count}</h1>
+    </main>
   )
 }
-
+// clean up function removes event listener on every single click, so count will increase by 1, without clean up function, event listener would do more than one task and it will increase count by 2,3 4
 export default App
