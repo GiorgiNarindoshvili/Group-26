@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+body{
+    background-image: url(../src/assets/images/bg-dark-theme.png);
+    height: 100vh;
+}
+
+#toppart{
+    display: flex;
+    gap: 730px;
+}
+
+#blacklogo{
+    padding: 30px;
+    width: 200px;
+    padding-left: 140px;
+}
+
+
+@media(max-width: 450px) {
+    #blacklogo{
+        padding-left: 70px;
+        
+    }
+}
+
+#sun{
+    background-color: rgb(65, 65, 65);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+@media(max-width: 450px){
+    #toppart{
+        gap: 60px;
+    }
+}
+#Titlepage{
+    font-size: 34px;
+    width: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 370px;
+    padding-top: 30px;
+    color: white;
+}
+
+@media (max-width: 450px) {
+    #Titlepage{
+        margin-left: -270px;
+        width: 240px;
+    }
+}
+
+#input1{
+    padding: 70px;
+    padding-left: 150px;
+   
+}
+
+#text12{
+    background-color: rgb(65, 65, 65);
+    border: none;
+    width: 950px;
+    height: 300px;
+    border-radius: 10px;
+    outline: none;
+    padding-top: 16px;
+    line-height: 1.2;
+    
+    padding-left: 40px;
+    color: rgb(173, 173, 173);
+    resize: none;
+    font-size: 16px;
+}
+
+@media(max-width: 450px){
+    #text12{
+        width: 300px;
+        margin-left: -100px;
+    }
+}
+
+
+#checkboxes{
+    margin-top: 20px;
+    accent-color: #888;
+    background: none;
+    display: flex;
+    gap: 290px;
+    color: #dfdfdf;
+    
+}
+
+@media(max-width: 450px){
+    #checkboxes{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: -40px;
+    }
+    #c{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+#checkbox1{
+    display: flex;
+    gap: 15px;
+    color: #ccc;
+}
+
+#checkbox1 p{
+    color: #dfdfdf;
+    
+}
+
+#chec p{
+    color: #dfdfdf;
+}
+
+input[type = "checkbox"]{
+    border: none;
+    height: 16px;
+    width: 16px;
+}
+
+#chec{
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+#c{
+    display: flex;
+    gap: 40px;
+}
+
+#boxes{
+    display: flex;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+@media(max-width: 450px){
+    #boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+    
+    
+}
+
+#purplebox{
+    background-color: rgb(190, 158, 190);
+    width: 320px;
+    margin-left: 150px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+#purplebox img{
+    margin-left: 180px;
+    width: 140px;
+}
+
+#purplenum {
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+    width: 130px;
+    margin-left: 10px;
+    font-size: 58px;
+    margin-top: -120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#chars{
+    margin-left: 20px;
+    
+}
+
+#yellowbox{
+    background-color: rgba(255, 142, 37, 0.884);
+    width: 320px;
+    
+    height: 140px;
+    border-radius: 10px;
+}
+#yellowbox img{
+    margin-left: 180px;
+    width: 140px;
+}
+
+#yellownum {
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+    width: 130px;
+    margin-left: -15px;
+    font-size: 58px;
+    margin-top: -120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+#words{
+    margin-left: 15px
+}
+
+#orangebox{
+    background-color: rgba(255, 114, 79, 0.884);
+    width: 300px;
+    
+    height: 140px;
+    border-radius: 10px;
+}
+#orangebox img{
+    margin-left: 160px;
+    width: 140px;
+}
+#orangenum {
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+    width: 130px;
+    margin-left: -15px;
+    font-size: 58px;
+    margin-top: -120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+#sen{
+    margin-left: 10px;
+}
