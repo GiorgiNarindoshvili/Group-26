@@ -5,12 +5,20 @@ import Rects from './components/threefigs.jsx'
 
 
 const App = () => {
+    const[text, setText] = useState("")
+    const [darkMode, setDarkMode] = useState(true)
+
+    const toggle = () => {
+        setDarkMode(!darkMode)
+    }
+    
     return(
-        <>
-            <Header/>
-            <Inputbar/>
-            <Rects/>
-        </>
+        <div className={darkMode ? 'app dark' : 'app light'}>
+        
+            <Header toggle={toggle} darkMode={darkMode}/>
+            <Inputbar onTextChange={setText}/>
+            <Rects text={text}/>
+        </div>
     )
   
   

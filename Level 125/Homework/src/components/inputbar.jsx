@@ -1,9 +1,12 @@
 import { useState } from "react"
 
-const Inputbar = () => {
+const Inputbar = ({ onTextChange }) => {
+    const handleChange = (e) => {
+        onTextChange(e.target.value)
+    }
     return(
         <div id="input1">
-            <textarea name="" id="text12" placeholder="Start typing here… (or paste your text)"></textarea>
+            <textarea name="" id="text12" placeholder="Start typing here… (or paste your text)" onChange={handleChange}></textarea>
             <div id="checkboxes"> 
                 <div id="c">
                     <div id="checkbox1">

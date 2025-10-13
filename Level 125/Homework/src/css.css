@@ -257,3 +257,49 @@ input[type = "checkbox"]{
 #sen{
     margin-left: 10px;
 }
+
+.app {
+  min-height: 100vh;
+  transition:  0.3s, color 0.3s;
+}
+
+
+.app.dark {
+  
+  color: white;
+}
+
+
+.app.light {
+  background-color: white;
+  color: black;
+}
+
+.app.dark *{
+  
+  color: white !important;
+}
+
+.app.light * {
+  
+  color: rgb(0, 0, 0) !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+
+.theme-icon {
+  
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.theme-icon:hover {
+  transform: scale(1.1);
+}
