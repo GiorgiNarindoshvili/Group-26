@@ -1,35 +1,40 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Register from './components/Register'
+import UserProf from './components/render'
+import Login from './components/Authorize'
 
-function App() {
-  const [count, setCount] = useState(0)
 
-  return (
+
+
+const App = () => {
+    const [user, setUser] = useState(null)
+    const[isLogin, setIsLogin] = useState(false)
+
+
+    const handleRegister = (data) => {
+        setUser(data)
+    }
+
+    const handleLogIn = (data) => {
+        setUser({username: "DemoUser", ...data});
+    }
+
+    if(user){
+        return <UserProf user={user}/> 
+    }
+
+
+
+ return(
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {isLogin ? (
+        <Login onLogin = {handleLogIn}/>
+      ) : (
+        <Register onRegister={handleRegister}/>
+      )}
+      <button onClick={() => setIsLogin(!isLogin)}>{!isLogin ? "Go To Registration" : "Go To Log In!"}</button>
     </>
-  )
+ )
 }
 
 export default App
